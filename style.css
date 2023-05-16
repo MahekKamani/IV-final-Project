@@ -1,0 +1,96 @@
+/* Global styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+main {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+/* Featured section styles */
+
+#featured {
+  background-color: #f6f6f6;
+  padding: 20px;
+}
+
+/* Blog section styles */
+
+.post {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.post h3 {
+  margin-top: 0;
+}
+
+.post p {
+  margin-bottom: 20px;
+}
+
+.post a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.post a:hover {
+  background-color: #666;
+}
+
+footer {
+  background-color: #333;
+  color: #f5e9e9;
+  padding: 20px;
+  text-align: center;
+}
